@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Drum Kit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="key" data-key="65">
+                <kbd>A</kbd>
+                <span>CLAP</span>
+            </div>
+            <div class="key" data-key="83">
+                <kbd>S</kbd>
+                <span>HIHAT</span>
+            </div>
+            <div class="key" data-key="68">
+                <kbd>D</kbd>
+                <span>KICK</span>
+            </div>
+            <div class="key" data-key="70">
+                <kbd>F</kbd>
+                <span>OPENHAT</span>
+            </div>
+            <div class="key" data-key="71">
+                <kbd>G</kbd>
+                <span>BOOM</span>
+            </div>
+            <div class="key" data-key="72">
+                <kbd>H</kbd>
+                <span>RIDE</span>
+            </div>
+            <div class="key" data-key="74">
+                <kbd>J</kbd>
+                <span>SNARE</span>
+            </div>
+            <div class="key" data-key="75">
+                <kbd>K</kbd>
+                <span>TOM</span>
+            </div>
+            <div class="key" data-key="76">
+                <kbd>L</kbd>
+                <span>TINK</span>
+            </div>
+        </div>
+
+        <audio data-key="65" src="./assets/audios/clap.wav"></audio>
+        <audio data-key="83" src="./assets/audios/hihat.wav"></audio>
+        <audio data-key="68" src="./assets/audios/kick.wav"></audio>
+        <audio data-key="70" src="./assets/audios/openhat.wav"></audio>
+        <audio data-key="71" src="./assets/audios/boom.wav"></audio>
+        <audio data-key="72" src="./assets/audios/ride.wav"></audio>
+        <audio data-key="74" src="./assets/audios/snare.wav"></audio>
+        <audio data-key="75" src="./assets/audios/tom.wav"></audio>
+        <audio data-key="76" src="./assets/audios/tink.wav"></audio>
+        
+        <script src="./index.js"></script>
+    </body>
+</html>
